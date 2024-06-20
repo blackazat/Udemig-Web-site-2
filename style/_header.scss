@@ -1,0 +1,60 @@
+$textcolor: #fff;
+$bgcolor: #000;
+$maincolor: #ffa343;
+
+$h1font: 6rem;
+$h2font: 3rem;
+$pfont: 1rem;
+header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: transparent;
+  background-color: #000;
+  display: flex;
+  width: 100%;
+  padding: 27px 17px;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    font-size: 33px;
+    color: $textcolor;
+    font-size: 700;
+    span {
+      color: $maincolor;
+    }
+  }
+  .navbar {
+    display: flex;
+    a {
+      color: $textcolor;
+      font-size: $pfont;
+      font-weight: 500;
+      margin: 15px 22px;
+      transition: all 0.5 ease;
+      text-transform: uppercase;
+      &:hover {
+        color: $maincolor;
+      }
+    }
+  }
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  a {
+    color: $textcolor;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: all 0.3 ease;
+    &:hover {
+      color: $maincolor;
+      transform: translateY(-3px);
+    }
+  }
+  a:nth-child(1) {
+    font-size: $pfont;
+    margin-right: 20px;
+  }
+}
