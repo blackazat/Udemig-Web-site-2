@@ -11,3 +11,4 @@
 -Site ile ilgili öneri, yorum ve şikayetlerinizi e-mail adresime atabilirsiniz.
 
 -    e-mail=azatberfe472@gmail.com
+![Ekran görüntüsü 2024-06-20 060032](https://github.com/blackazat/Udemig-Web-site-2/assets/170247886/847a54e3-ec15-469e-895a-8bb62dfd9184)
